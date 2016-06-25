@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/baulogo">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:text="GİRİŞİMCİ MÜHENDİSLER TOPLULUĞU KAYIT FORMU"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/baslik"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:id="@+id/adigir"
+            android:layout_marginLeft="200dp"
+          android:width="200dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/adi"
+            android:text="Adiniz Soyadiniz :"
+            android:textSize="15dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:id="@+id/ogrencigir"
+            android:layout_marginLeft="200dp"
+            android:width="200dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ögrenci"
+            android:text="Öğrenci Numaranız:"
+            android:textSize="15dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"
+            android:textColor="#000000"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/emailgir"
+            android:layout_marginLeft="200dp"
+            android:width="200dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:text="E-mailinizi girin:"
+            android:textSize="15dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            />
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:id="@+id/bölümgir"
+            android:layout_marginLeft="200dp"
+            android:width="200dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bölüm"
+            android:text="Bölümünüzü giriniz:"
+            android:textSize="15dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550dp"
+            android:inputType="phone"
+            android:id="@+id/telefongir"
+            android:layout_marginLeft="200dp"
+            android:width="200dp" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/telefon"
+            android:text="Size ulaşabileceğimiz telefon numarası:"
+
+            android:textSize="15dp"
+            android:layout_marginTop="570dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/bilgigir"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="670dp"
+            android:width="200dp"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bilgi"
+            android:text="Girişimci Mühendisler
+Topluluğuna Niçin
+Katılmak istiyorsunuz:"
+            android:textSize="15dp"
+            android:layout_marginTop="670dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/kayitol"
+                android:text="KAYIT OL"
+                android:layout_marginTop="900dp"
+                android:background="#3366FF"
+                android:layout_marginLeft="150dp"/>
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/baulogo">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp"
+        android:text="ÜYE GİRİŞİ"
+        android:textSize="40dp"
+        android:layout_marginLeft="105dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/baslik"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:id="@+id/adigir"
+        android:layout_marginLeft="200dp"
+        android:width="200dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/adi"
+        android:text="Adiniz Soyadiniz :"
+        android:textSize="15dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:id="@+id/ogrencigir"
+        android:layout_marginLeft="200dp"
+        android:width="200dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ögrenci"
+        android:text="Öğrenci Numaranız:"
+        android:textSize="15dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/giris"
+        android:text="GİRİS YAP"
+        android:layout_marginTop="350dp"
+        android:background="#3366FF"
+        android:layout_marginLeft="150dp"/>
+    </RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/baslik"
+            android:text="Baslık"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            android:layout_width="175dp"
+            android:layout_height="40dp">
+        </TextView>
+
+        <EditText
+            android:layout_width="205dp"
+            android:layout_height="40dp"
+            android:id="@+id/baslikgir">
+        </EditText>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/firisyazi"
+            android:text="Giriş Yazısı"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:paddingTop="30dp"
+            android:layout_width="175dp"
+            android:layout_height="80dp">
+        </TextView>
+
+        <EditText
+            android:layout_width="205dp"
+            android:layout_height="80dp"
+            android:id="@+id/girisgir">
+        </EditText>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:text="Resim Seç/Yükle"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:paddingTop="40dp"
+            android:layout_width="175dp"
+            android:layout_height="100dp">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/resim"
+            android:text="Resim Yükle"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="center"
+            android:paddingTop="30dp"
+            android:src="@drawable/ic_menu_gallery"
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/resim_yukle"
+            android:paddingTop="30dp"
+            android:src="@drawable/ic_file_upload_24dp"
+            >
+        </ImageButton>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:text="Yüklenen Resim"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:paddingTop="40dp"
+            android:layout_width="175dp"
+            android:layout_height="100dp">
+        </TextView>
+
+
+        <ImageView
+            android:layout_width="205dp"
+            android:layout_height="100dp"
+            android:id="@+id/yuklenenresim">
+        </ImageView>
+
+
+
+    </TableRow>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="DEĞİŞİKLERİ ONAYLA"
+        android:id="@+id/onayla"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

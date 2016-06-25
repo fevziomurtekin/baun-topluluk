@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/image_dialog"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/baslik_dialog"
+        android:layout_below="@id/image_dialog"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/giris_dialog"
+        android:layout_below="@id/baslik_dialog"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+
+        android:layout_marginLeft="60dp"
+        android:id="@+id/dialog_tamam"
+        android:text="TAMAM"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/giris_dialog"
+        />
+</RelativeLayout>

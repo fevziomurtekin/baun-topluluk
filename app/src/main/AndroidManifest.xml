@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tekin.baungm">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WhoAreWe">
+
+        </activity>
+        <activity android:name=".kayitol">
+
+        </activity>
+        <activity android:name=".LoginActivity">
+
+        </activity>
+        <activity android:name=".adminpanel">
+
+        </activity>
+        <activity android:name=".uyegiris"></activity>
+        <activity android:name=".AdminAnasayfa"></activity>
+        <activity android:name=".AdminBizkimiz"></activity>
+        <activity android:name=".AdminEtkinlik"></activity>
+        <activity android:name=".Etkinlik"></activity>
+        <activity android:name=".OnceEtkinlik"></activity>
+        <activity android:name=".YeniEtkinlik"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".AdminKatilim"></activity>
+        <activity android:name=".Mesaj"></activity>
+        <activity android:name=".adminMesaj"></activity>
+
+    </application>
+
+
+</manifest>

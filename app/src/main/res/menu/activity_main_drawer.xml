@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kimiz"
+            android:icon="@drawable/ic_help_24dp"
+            android:title="Biz kimiz?" />
+        <item
+            android:id="@+id/etkinlik"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Etkinliklerimiz" />
+        <item
+            android:id="@+id/uye"
+            android:icon="@drawable/ic_person_add_24dp"
+            android:title="Topluluğa Üye Ol" />
+        <item
+            android:id="@+id/giris"
+            android:icon="@drawable/ic_people_24dp"
+            android:title="Üye Girişi" />
+    </group>
+
+    <item android:title="İletişim">
+        <menu>
+            <item
+                android:id="@+id/paylas"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Paylaş" />
+            <item
+                android:id="@+id/gonder"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Bize mesaj gönderin" />
+        </menu>
+    </item>
+
+</menu>

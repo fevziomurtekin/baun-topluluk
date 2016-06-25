@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uyeadi"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:text="Merhaba Uye"/>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:textStyle="italic"
+      android:textSize="20dp"
+      android:textColor="#000"
+      android:layout_marginLeft="15dp"
+      android:layout_marginRight="15dp"
+      android:text="Bize isteklerinizi, etkinlik önerilerinizi, şikayetlerinizi ve eleştirinizileri buradan yazabilir, bizimle iletişim kurabilirsiniz..."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="#000"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Bize iletmek istediğiniz mesajınızı giriniz."/>
+    <EditText
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:id="@+id/mesajın"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:text="Mesajınız.."
+        android:background="#BDBDBD"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/gonder"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="GÖNDER"/>
+</LinearLayout>
